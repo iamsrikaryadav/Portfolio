@@ -16,18 +16,19 @@ header{
     background-position: center;
 }
 
-ul{
+.navigationbar ul{
 	/* styling ul tag */
     float: right;
 	font-weight: bolder;
     list-style-type: none;
     margin-top: 40px;
+    margin-right: 40px;
 }
-ul li{
+.navigationbar ul li{
 	/* styling li tag  shows side by side */
     display: inline-block;
 }
-ul li a{
+.navigationbar ul li a{
 	/* styling a tag navigation bar white background */
     text-decoration:none ;
     background-color: #0c0b0b;
@@ -38,29 +39,24 @@ ul li a{
     transition: 0.6s ease;
 	border-radius: 50px;
 }
-ul li a:hover{
+.navigationbar ul li a:hover{
 	/* styling a tag navigation bar hovering effect */
     background: linear-gradient(to bottom, #ff6600 0%, #ff0066 100%);
     color: #fff;
 	}
-ul li:hover ul {
+.navigationbar ul li:hover ul {
   box-shadow: 0px 3px 5px 2px #EBECF1;
   visibility: visible;
   opacity: 1;
 }
-ul li:hover ul li a {
+.navigationbar ul li:hover ul li a {
   color: #fff;
 }
-ul li.active a{
+.navigationbar ul li.active a{
     background: linear-gradient(to bottom, #ff6600 0%, #ff0066 100%);
     color: #fff;
 }
-.logo img{
-	/* styling a logo and defining the logo */
-    float: left;
-    width: 160px;
-    height: auto;
-}
+
 .main{
 	/* website is shown in middle */
     max-width: 1400px;
@@ -74,6 +70,7 @@ ul li.active a{
     position: relative;
     text-align: center;
     color: white;
+    font-style: oblique;
     
     
 }
@@ -81,137 +78,36 @@ ul li.active a{
     position: absolute;
     font-size: xx-large;
     top: 150px;
-    right: 40px;
+    right: 30px;
 }
-.op-title1{
-	/* Title is positioning shown in middle */
+.bodybackground {
+    position: relative;
+    text-align: left;
+    color: rgb(12, 10, 10);
+    height: 50%;
+    
+    
+}
+#about{
     position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.op-title1 h1{
-	/* website is shown in middle */
-    font-family: sans-serif;
-    color: #fff;
-    font-size: 50px;
-} 
-.styletable1{
-	/* Title is positioning shown in middle */
-    position: absolute;
-    top: 50%;
-    left: 75%;
-    transform: translate(-300%,-50%);    
-    border:5px solid red;
-    padding: 30px;
-}
-.styletable1{
-	/* website is shown in middle */
-    font-family: sans-serif;
-    border-collapse: collapse;
-    color: #fff;
-    font-size: 20px;
-}
-.styletable1 tr:hover{
-    background-color: brown;
-}
-.styletable1 tr:nth-child(even){
-    font-weight: bold;
-    background-color: #dddddd;
-    color: black;
-}
-.styletable1 td, th{
-    font-weight: bold;
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-}
-.op-title2{
-	/* Title is positioning shown in middle */
-    position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.op-title2 h1{
-	/* website is shown in middle */
-    font-family: sans-serif;
-    color: #fff;
-    font-size: 70px;
-}
-.styletable2{
-	/* Title is positioning shown in middle */
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-300%,-50%);    
-    border:5px solid red;
-}
-.styletable2{
-	/* website is shown in middle */
-    font-family: sans-serif;
-    border-collapse: collapse;
-    color: #fff;
-    font-size: 20px;
-}
-.styletable2 tr:hover{
-    background-color: brown;
-}
-.styletable2 tr:nth-child(even){
-    font-weight: bold;
-    background-color: #dddddd;
-    color: black;
-}
-.styletable2 td, th{
-    font-weight: bold;
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-}
-.styletable3{
-	/* Title is positioning shown in middle */
-    position: absolute;
-    top: 50%;
-    left: 130%;
-    transform: translate(-300%,-50%);    
-    border:5px solid red;
-    padding: 30px;
-}
-.styletable3{
-	/* website is shown in middle */
-    font-family: sans-serif;
-    border-collapse: collapse;
-    color: #fff;
-    font-size: 20px;
-}
-.styletable3 tr:hover{
-    background-color: brown;
-}
-.styletable3 tr:nth-child(even){
-    font-weight: bold;
-    background-color: #dddddd;
-    color: black;
-}
-.styletable3 td, th{
-    font-weight: bold;
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-}
-.about{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    text-align:left;
-    color: black;
-    
-
+    top: 80px;
+    left: 40px;
 }
-.about ul li{
-    font-family: Arial, Helvetica, sans-serif;
-    list-align:right;
-    color: black;
-    
+#about ol, li{
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 120%;
+}
+#about ul{
+    list-style-type: circle;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 120%;
+}
 
+#about h4{
+    margin-left: 20px;
 }
 
 
