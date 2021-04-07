@@ -57,11 +57,11 @@ header{
     color: #fff;
 }
 
-.main{
+/* .main{
 	/* website is shown in middle */
-    max-width: 1400px;
+    /* max-width: 1400px;
     margin: auto;
-}
+ */
 #container{
     width: 1080px; margin:0 auto;
 
@@ -84,7 +84,7 @@ header{
     position: relative;
     text-align: left;
     color: rgb(12, 10, 10);
-    height: 50%;
+    height: 20vh;
     
     
 }
@@ -109,6 +109,10 @@ header{
 #about h4{
     margin-left: 20px;
 }
+html {
+	height: 80%;
+}
+
 
 
   

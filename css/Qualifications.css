@@ -60,36 +60,62 @@ ul li.active a{
     color: #fff;
 }
 
-table {
+.Skills table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 30%;
+    width: 100%;
   }
-  table td {
+  .Skills  table td {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 60%;
   }
-  th{
+  .Skills th{
     border: 1px solid #000a01;
     text-align: left;
     padding: 10px;
   }
   
-  td{
+  .Skills td{
     border: 1px solid #000a01;
     text-align: left;
     padding: 20px;
   }
   
-  tr:nth-child(even) {
+  .Skills  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  * {box-sizing: border-box}
+  .working table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  .working  table td {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  .working th{
+    border: 1px solid #000a01;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .working td{
+    border: 1px solid #000a01;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .working  tr:nth-child(even) {
     background-color: #dddddd;
   }
   * {box-sizing: border-box}
 
   .container {
     width: 100%;
-    background-color: #ddd;
+    background-color: rgb(12, 2, 2);
   }
   
 .skills {
@@ -103,9 +129,56 @@ table {
   .Java {width: 80%; background-color: #2196F3;}
   .Mysql {width: 90%; background-color: #f44336;}
   .HTML {width: 90%; background-color: #240547;}
-  .Problem {width: 80%; background-color: #e91212;}
+  .Problem {width: 80%; background-color: #f8e008;}
 
+#bodycontainer{
+  width: 1080px;
+  height: 1120px;
+  background-repeat: repeat-y;
+  
+  
+}
+.working{
+    position: absolute;
+    font-size: medium;
+    top: 120px;
+    left: 40px;
+}
+.Skills{
+  position: absolute;
+    font-size: medium;
+    top: 330px;
+    left: 600px;
 
+}
+.education table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 150%;
+}
+
+.education td, th {
+  border: 2px solid #070000;
+  text-align: center;
+  padding: 8px;
+}
+
+.education tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.education{
+  position: absolute;
+    font-size: large;
+    top: 810px;
+    left: 430px;
+
+}
+.makeeducationcenter{
+  position: absolute;
+  text-align: center;
+  top :790px;
+  left: 650px;
+}
 
 
 
